@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A5475F424B449773423DB6 /* HarmoniumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370559C3E986ED461E0D2016 /* HarmoniumView.swift */; };
+		17BCAA97FFF939927F41EF06 /* ShrutiBoxViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BE5AA1CBC4BC32714CB05F /* ShrutiBoxViewModel.swift */; };
+		319E6B0E642DF3A80DD74BE4 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467140FDE59EE678C324DD67 /* AppState.swift */; };
+		3637CE43E648F679D583BDFC /* ReferenceTonesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2A54D1C40FF7DC2D3AF65D /* ReferenceTonesView.swift */; };
+		37F0B5859CD73AB59EC4AC7B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F7A7D30A73F87440C3F3C /* Theme.swift */; };
+		446CA422FE47A1799C6C9406 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCCDD61516BED60034E9AA3 /* ContentView.swift */; };
+		4A3C3127FBB4CF1F990D3C3A /* ReferenceToneSynthesizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C9593857355AFAAF32DDF1 /* ReferenceToneSynthesizer.swift */; };
+		4D356883BDDB110780208A2B /* TanpuraSynthesizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B13410EA70FCAA99BB5B3D /* TanpuraSynthesizer.swift */; };
+		50678E187CFAB256E6CF6E3F /* Swara.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777879DCE34CF3DF03ED9D8C /* Swara.swift */; };
+		58D11704C13C4F6DC9627573 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B052E81924ED3EAFDC681385 /* SettingsView.swift */; };
+		62AD340E04870F8C930A449C /* RagaDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8167265D172EB137AC885EAF /* RagaDatabase.swift */; };
+		62C2FF1DC6A0311497DC4E48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24BE2314CDCA231ADDBF8923 /* Assets.xcassets */; };
+		6668A18400B324C107CABF24 /* RagaSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646DD5715C3E16F980A7EF97 /* RagaSelectorView.swift */; };
+		670318009A09DE64474BA5C5 /* PocketSwaraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7497DC220A67101FC8E6BBF /* PocketSwaraApp.swift */; };
+		6BD1D994F352997BB9D5D33A /* NotePitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083C5423F1F773DAAB45A13F /* NotePitch.swift */; };
+		6CF8D914B39D698EFE28F9F7 /* TanpuraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD83208488CE1AB97C2C02 /* TanpuraViewModel.swift */; };
+		732FAEC04B7AF5ACBEC92658 /* HarmoniumSynthesizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B3D84858CD774A02CF335D /* HarmoniumSynthesizer.swift */; };
+		762A75AFDB3AA1FAEFECFE76 /* PlayStopButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853BFF9B66162CF4333EAD0E /* PlayStopButton.swift */; };
+		884CE6AED1B3E3DB55788237 /* RagaDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040B03B320104EC0BCB5C99A /* RagaDetailView.swift */; };
+		A1AFEBD53DFC18B5C4A9EC82 /* KarplusStrongBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FB0D48DDC65EC3680FDB16 /* KarplusStrongBuffer.swift */; };
+		AB76769A182B3BF0FA7CE240 /* ShrutiBoxSynthesizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7CA2BC8B169AFB989AC97F /* ShrutiBoxSynthesizer.swift */; };
+		B3DA36A1B8CDA507611402A3 /* HarmoniumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F40F3C9266966D0C3E8E3E5 /* HarmoniumViewModel.swift */; };
+		B5D44D4BC0B193D28C191CEC /* RagaToolbarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC9E90B74DF9F27963AFB01 /* RagaToolbarModifier.swift */; };
+		C11A2D041D60FFFBC756AAF9 /* TanpuraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F394DB2EFB3760A03800911 /* TanpuraView.swift */; };
+		CC30928244149C1AF6838D45 /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C105B93F50ABBFFAC0F1295C /* AudioEngine.swift */; };
+		CD4EB41A7095DB5412E33C49 /* SynthesizerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F24DCC7E542995F081E6D7 /* SynthesizerProtocol.swift */; };
+		D46E8788C81B63C3B1394120 /* RagaSelectorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0776E5CFB95A8DE480C6F6D /* RagaSelectorViewModel.swift */; };
+		E033A65607358C27F72CD9A6 /* AudioSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DA2E704477359956FE88D1 /* AudioSessionManager.swift */; };
+		E1FFB6C86A4F32728D5F6161 /* ReferenceTonesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400A9FBE7FE1B568141162EB /* ReferenceTonesViewModel.swift */; };
+		E910512FF8994FAA79154D7E /* SaPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F0157965B1C30E566482F1 /* SaPickerView.swift */; };
+		E9B3420163F307B259C4E3A4 /* DroneMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A35CF85A87D3F404C163D70 /* DroneMode.swift */; };
+		F3C320DDFA38179B14D89FE5 /* Raga.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6286FFF874205AA1936C5E /* Raga.swift */; };
+		F877B8E9C2ED0E662D218675 /* ShrutiBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65BA8D48967D7E1B727D01F /* ShrutiBoxView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		040B03B320104EC0BCB5C99A /* RagaDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RagaDetailView.swift; sourceTree = "<group>"; };
+		083C5423F1F773DAAB45A13F /* NotePitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotePitch.swift; sourceTree = "<group>"; };
+		24BE2314CDCA231ADDBF8923 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A35CF85A87D3F404C163D70 /* DroneMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroneMode.swift; sourceTree = "<group>"; };
+		370559C3E986ED461E0D2016 /* HarmoniumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmoniumView.swift; sourceTree = "<group>"; };
+		3F40F3C9266966D0C3E8E3E5 /* HarmoniumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmoniumViewModel.swift; sourceTree = "<group>"; };
+		400A9FBE7FE1B568141162EB /* ReferenceTonesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceTonesViewModel.swift; sourceTree = "<group>"; };
+		467140FDE59EE678C324DD67 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		4F394DB2EFB3760A03800911 /* TanpuraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TanpuraView.swift; sourceTree = "<group>"; };
+		53C9593857355AFAAF32DDF1 /* ReferenceToneSynthesizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceToneSynthesizer.swift; sourceTree = "<group>"; };
+		646DD5715C3E16F980A7EF97 /* RagaSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RagaSelectorView.swift; sourceTree = "<group>"; };
+		6A6286FFF874205AA1936C5E /* Raga.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raga.swift; sourceTree = "<group>"; };
+		6B3F7A7D30A73F87440C3F3C /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		777879DCE34CF3DF03ED9D8C /* Swara.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swara.swift; sourceTree = "<group>"; };
+		8167265D172EB137AC885EAF /* RagaDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RagaDatabase.swift; sourceTree = "<group>"; };
+		84AD83208488CE1AB97C2C02 /* TanpuraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TanpuraViewModel.swift; sourceTree = "<group>"; };
+		853BFF9B66162CF4333EAD0E /* PlayStopButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayStopButton.swift; sourceTree = "<group>"; };
+		89F24DCC7E542995F081E6D7 /* SynthesizerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynthesizerProtocol.swift; sourceTree = "<group>"; };
+		A1B13410EA70FCAA99BB5B3D /* TanpuraSynthesizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TanpuraSynthesizer.swift; sourceTree = "<group>"; };
+		A97C29AD63741CF438998CE6 /* PocketSwara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketSwara.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F0157965B1C30E566482F1 /* SaPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaPickerView.swift; sourceTree = "<group>"; };
+		AD2A54D1C40FF7DC2D3AF65D /* ReferenceTonesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceTonesView.swift; sourceTree = "<group>"; };
+		B052E81924ED3EAFDC681385 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		BBCCDD61516BED60034E9AA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C105B93F50ABBFFAC0F1295C /* AudioEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEngine.swift; sourceTree = "<group>"; };
+		C5DA2E704477359956FE88D1 /* AudioSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioSessionManager.swift; sourceTree = "<group>"; };
+		C7497DC220A67101FC8E6BBF /* PocketSwaraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketSwaraApp.swift; sourceTree = "<group>"; };
+		CE7CA2BC8B169AFB989AC97F /* ShrutiBoxSynthesizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrutiBoxSynthesizer.swift; sourceTree = "<group>"; };
+		D0B3D84858CD774A02CF335D /* HarmoniumSynthesizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmoniumSynthesizer.swift; sourceTree = "<group>"; };
+		D65BA8D48967D7E1B727D01F /* ShrutiBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrutiBoxView.swift; sourceTree = "<group>"; };
+		D9FB0D48DDC65EC3680FDB16 /* KarplusStrongBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarplusStrongBuffer.swift; sourceTree = "<group>"; };
+		EDC9E90B74DF9F27963AFB01 /* RagaToolbarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RagaToolbarModifier.swift; sourceTree = "<group>"; };
+		F0776E5CFB95A8DE480C6F6D /* RagaSelectorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RagaSelectorViewModel.swift; sourceTree = "<group>"; };
+		F2BE5AA1CBC4BC32714CB05F /* ShrutiBoxViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrutiBoxViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29B2D46AA747A59804D46E1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0498B106ED14497ED3F09B69 /* ReferenceTones */ = {
+			isa = PBXGroup;
+			children = (
+				AD2A54D1C40FF7DC2D3AF65D /* ReferenceTonesView.swift */,
+				400A9FBE7FE1B568141162EB /* ReferenceTonesViewModel.swift */,
+			);
+			path = ReferenceTones;
+			sourceTree = "<group>";
+		};
+		2274712B072D640AFD180EF0 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B052E81924ED3EAFDC681385 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		42085DC19B4513FC5004036A /* ShrutiBox */ = {
+			isa = PBXGroup;
+			children = (
+				D65BA8D48967D7E1B727D01F /* ShrutiBoxView.swift */,
+				F2BE5AA1CBC4BC32714CB05F /* ShrutiBoxViewModel.swift */,
+			);
+			path = ShrutiBox;
+			sourceTree = "<group>";
+		};
+		441A33D10F57B027A0DE41CC /* Harmonium */ = {
+			isa = PBXGroup;
+			children = (
+				370559C3E986ED461E0D2016 /* HarmoniumView.swift */,
+				3F40F3C9266966D0C3E8E3E5 /* HarmoniumViewModel.swift */,
+			);
+			path = Harmonium;
+			sourceTree = "<group>";
+		};
+		45B877375D6D6297BAAF2860 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				24BE2314CDCA231ADDBF8923 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		525491C41F34C29507E59625 /* Synthesizers */ = {
+			isa = PBXGroup;
+			children = (
+				D0B3D84858CD774A02CF335D /* HarmoniumSynthesizer.swift */,
+				D9FB0D48DDC65EC3680FDB16 /* KarplusStrongBuffer.swift */,
+				53C9593857355AFAAF32DDF1 /* ReferenceToneSynthesizer.swift */,
+				CE7CA2BC8B169AFB989AC97F /* ShrutiBoxSynthesizer.swift */,
+				89F24DCC7E542995F081E6D7 /* SynthesizerProtocol.swift */,
+				A1B13410EA70FCAA99BB5B3D /* TanpuraSynthesizer.swift */,
+			);
+			path = Synthesizers;
+			sourceTree = "<group>";
+		};
+		7882D14E196057770B59E53D /* PocketSwara */ = {
+			isa = PBXGroup;
+			children = (
+				FE910D29D648D8F2EA669AEF /* App */,
+				9CF43B31E8845D861542A38E /* Models */,
+				AD70DE73CF4DAFD344A1AA7C /* Audio */,
+				F7A3FAD1BFA84C82EB67ADA9 /* Features */,
+				7F0A37B7CCA793C8FD56FAB6 /* SharedUI */,
+				45B877375D6D6297BAAF2860 /* Resources */,
+				BF7A2D27A78D590BDEF15AF2 /* Products */,
+			);
+			path = PocketSwara;
+			sourceTree = "<group>";
+		};
+		7F0A37B7CCA793C8FD56FAB6 /* SharedUI */ = {
+			isa = PBXGroup;
+			children = (
+				853BFF9B66162CF4333EAD0E /* PlayStopButton.swift */,
+				EDC9E90B74DF9F27963AFB01 /* RagaToolbarModifier.swift */,
+				A9F0157965B1C30E566482F1 /* SaPickerView.swift */,
+				6B3F7A7D30A73F87440C3F3C /* Theme.swift */,
+			);
+			path = SharedUI;
+			sourceTree = "<group>";
+		};
+		9CF43B31E8845D861542A38E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2A35CF85A87D3F404C163D70 /* DroneMode.swift */,
+				083C5423F1F773DAAB45A13F /* NotePitch.swift */,
+				6A6286FFF874205AA1936C5E /* Raga.swift */,
+				8167265D172EB137AC885EAF /* RagaDatabase.swift */,
+				777879DCE34CF3DF03ED9D8C /* Swara.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AD70DE73CF4DAFD344A1AA7C /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				525491C41F34C29507E59625 /* Synthesizers */,
+				C105B93F50ABBFFAC0F1295C /* AudioEngine.swift */,
+				C5DA2E704477359956FE88D1 /* AudioSessionManager.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		BF7A2D27A78D590BDEF15AF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A97C29AD63741CF438998CE6 /* PocketSwara.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E58D5D55F79EA5743B5928C4 /* Tanpura */ = {
+			isa = PBXGroup;
+			children = (
+				4F394DB2EFB3760A03800911 /* TanpuraView.swift */,
+				84AD83208488CE1AB97C2C02 /* TanpuraViewModel.swift */,
+			);
+			path = Tanpura;
+			sourceTree = "<group>";
+		};
+		F4F6A268161235B365D63106 /* RagaSelector */ = {
+			isa = PBXGroup;
+			children = (
+				040B03B320104EC0BCB5C99A /* RagaDetailView.swift */,
+				646DD5715C3E16F980A7EF97 /* RagaSelectorView.swift */,
+				F0776E5CFB95A8DE480C6F6D /* RagaSelectorViewModel.swift */,
+			);
+			path = RagaSelector;
+			sourceTree = "<group>";
+		};
+		F7A3FAD1BFA84C82EB67ADA9 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				441A33D10F57B027A0DE41CC /* Harmonium */,
+				F4F6A268161235B365D63106 /* RagaSelector */,
+				0498B106ED14497ED3F09B69 /* ReferenceTones */,
+				2274712B072D640AFD180EF0 /* Settings */,
+				42085DC19B4513FC5004036A /* ShrutiBox */,
+				E58D5D55F79EA5743B5928C4 /* Tanpura */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		FE910D29D648D8F2EA669AEF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				467140FDE59EE678C324DD67 /* AppState.swift */,
+				BBCCDD61516BED60034E9AA3 /* ContentView.swift */,
+				C7497DC220A67101FC8E6BBF /* PocketSwaraApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		131A2C91E218714B600E74BB /* PocketSwara */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 210C36C6289F9B5EE230C602 /* Build configuration list for PBXNativeTarget "PocketSwara" */;
+			buildPhases = (
+				E7209FB05162B7572F88D05E /* Sources */,
+				29B2D46AA747A59804D46E1F /* Frameworks */,
+				66F8606E9F0A136E2228EBCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocketSwara;
+			productName = PocketSwara;
+			productReference = A97C29AD63741CF438998CE6 /* PocketSwara.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F86FAA6BBF9AC94A7E4595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = CE67609C24AD9C163C11ABE4 /* Build configuration list for PBXProject "PocketSwara" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7882D14E196057770B59E53D /* PocketSwara */;
+			productRefGroup = BF7A2D27A78D590BDEF15AF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				131A2C91E218714B600E74BB /* PocketSwara */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66F8606E9F0A136E2228EBCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62C2FF1DC6A0311497DC4E48 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7209FB05162B7572F88D05E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				319E6B0E642DF3A80DD74BE4 /* AppState.swift in Sources */,
+				446CA422FE47A1799C6C9406 /* ContentView.swift in Sources */,
+				670318009A09DE64474BA5C5 /* PocketSwaraApp.swift in Sources */,
+				762A75AFDB3AA1FAEFECFE76 /* PlayStopButton.swift in Sources */,
+				B5D44D4BC0B193D28C191CEC /* RagaToolbarModifier.swift in Sources */,
+				E910512FF8994FAA79154D7E /* SaPickerView.swift in Sources */,
+				37F0B5859CD73AB59EC4AC7B /* Theme.swift in Sources */,
+				58D11704C13C4F6DC9627573 /* SettingsView.swift in Sources */,
+				884CE6AED1B3E3DB55788237 /* RagaDetailView.swift in Sources */,
+				6668A18400B324C107CABF24 /* RagaSelectorView.swift in Sources */,
+				D46E8788C81B63C3B1394120 /* RagaSelectorViewModel.swift in Sources */,
+				C11A2D041D60FFFBC756AAF9 /* TanpuraView.swift in Sources */,
+				6CF8D914B39D698EFE28F9F7 /* TanpuraViewModel.swift in Sources */,
+				04A5475F424B449773423DB6 /* HarmoniumView.swift in Sources */,
+				B3DA36A1B8CDA507611402A3 /* HarmoniumViewModel.swift in Sources */,
+				3637CE43E648F679D583BDFC /* ReferenceTonesView.swift in Sources */,
+				E1FFB6C86A4F32728D5F6161 /* ReferenceTonesViewModel.swift in Sources */,
+				F877B8E9C2ED0E662D218675 /* ShrutiBoxView.swift in Sources */,
+				17BCAA97FFF939927F41EF06 /* ShrutiBoxViewModel.swift in Sources */,
+				E9B3420163F307B259C4E3A4 /* DroneMode.swift in Sources */,
+				6BD1D994F352997BB9D5D33A /* NotePitch.swift in Sources */,
+				F3C320DDFA38179B14D89FE5 /* Raga.swift in Sources */,
+				62AD340E04870F8C930A449C /* RagaDatabase.swift in Sources */,
+				50678E187CFAB256E6CF6E3F /* Swara.swift in Sources */,
+				CC30928244149C1AF6838D45 /* AudioEngine.swift in Sources */,
+				E033A65607358C27F72CD9A6 /* AudioSessionManager.swift in Sources */,
+				732FAEC04B7AF5ACBEC92658 /* HarmoniumSynthesizer.swift in Sources */,
+				A1AFEBD53DFC18B5C4A9EC82 /* KarplusStrongBuffer.swift in Sources */,
+				4A3C3127FBB4CF1F990D3C3A /* ReferenceToneSynthesizer.swift in Sources */,
+				AB76769A182B3BF0FA7CE240 /* ShrutiBoxSynthesizer.swift in Sources */,
+				CD4EB41A7095DB5412E33C49 /* SynthesizerProtocol.swift in Sources */,
+				4D356883BDDB110780208A2B /* TanpuraSynthesizer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4DC7B479A29173674AFD7BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U4V97FF3GW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pocket Swara";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Pocket Swara needs microphone access for the pitch detection tuner feature.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIBackgroundModes = audio;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pocketswara.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		683105B965893FCC643C4ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U4V97FF3GW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pocket Swara";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Pocket Swara needs microphone access for the pitch detection tuner feature.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIBackgroundModes = audio;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pocketswara.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71307F56FE0F050CBFE8BD6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4147F9DEB4AD84BF3A14790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		210C36C6289F9B5EE230C602 /* Build configuration list for PBXNativeTarget "PocketSwara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				683105B965893FCC643C4ECF /* Debug */,
+				4DC7B479A29173674AFD7BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE67609C24AD9C163C11ABE4 /* Build configuration list for PBXProject "PocketSwara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71307F56FE0F050CBFE8BD6D /* Debug */,
+				D4147F9DEB4AD84BF3A14790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+}
