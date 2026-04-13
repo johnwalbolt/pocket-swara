@@ -1,27 +1,5 @@
-# Xcode
-build/
-DerivedData/
-*.xcuserdata
-*.xcworkspace
-xcuserdata/
-*.xccheckout
-*.moved-aside
-*.hmap
-*.ipa
-*.dSYM.zip
-*.dSYM
-
-# Swift Package Manager
-.build/
-Packages/
-
-# CocoaPods
-Pods/
-
-# macOS
-.DS_Store
-*.swp
-*~
-
-# Claude
-.claude/
+# Everything except docs/
+*
+!docs/
+!docs/**
+!.gitignore
